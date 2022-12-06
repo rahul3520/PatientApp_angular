@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">patient ID</label>
+                    <input name="patientID" [(ngModel)]="patientID" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">patient Name</label>
+                    <input name="patientName" [(ngModel)]="patientName" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">DOB</label>
+                    <input type="date" name="dob" [(ngModel)]="dob" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">gender</label>
+                    <input name="gender" [(ngModel)]="gender" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">phone No</label>
+                    <input name="phoneNo" [(ngModel)]="phoneNo" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">doctor ID</label>
+                    <input name="doctorID" [(ngModel)]="doctorID" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">doctor Name</label>
+                    <input name="doctorName" [(ngModel)]="doctorName" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">room No</label>
+                    <input name="roomNo" [(ngModel)]="roomNo" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button (click)="readValues()" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

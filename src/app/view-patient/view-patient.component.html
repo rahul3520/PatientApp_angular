@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Patient ID</th>
+                        <th>Name</th>
+                        <th>DOB</th>
+                        <th>Gender</th>
+                        <th>Phone No</th>
+                        <th>Doctor Id</th>
+                        <th>Doctor Name</th>
+                        <th>Room No</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let i of patients">
+                        <td>{{i.patientID}}</td>
+                        <td>{{i.patientName}}</td>
+                        <td>{{i.dob}}</td>
+                        <td>{{i.gender}}</td>
+                        <td>{{i.phoneNo}}</td>
+                        <td>{{i.doctorID}}</td>
+                        <td>{{i.doctorName}}</td>
+                        <td>{{i.roomNo}}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+</div>

@@ -8,11 +8,13 @@ import { AddPatientComponent } from './add-patient/add-patient.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { ViewPatientComponent } from './view-patient/view-patient.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddPatientComponent
+    AddPatientComponent,
+    ViewPatientComponent
   ],
   imports: [
     BrowserModule,
